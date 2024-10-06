@@ -10,4 +10,5 @@ export class AppComponent {
   muButton: string = 'sakib'
 
   isDisable: boolean = true;
+  angularImage:string = '../assets/angular.png';
 }
