@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'AngularPractice';
+  title: string = 'AngularPractice';
+  muButton: string = 'sakib'
+
+  isDisable: boolean = true;
 }
