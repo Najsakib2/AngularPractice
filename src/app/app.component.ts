@@ -13,4 +13,5 @@ export class AppComponent {
   angularImage:string = '../assets/angular.png';
   hello : string = 'sakib';
   hello2: string = 'sakib2';
+  hello3: string = 'sakib3';
 }
