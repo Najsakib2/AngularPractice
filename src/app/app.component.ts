@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -10,8 +11,10 @@ export class AppComponent {
   muButton: string = 'sakib'
 
   isDisable: boolean = true;
-  angularImage:string = '../assets/angular.png';
-  hello : string = 'sakib';
-  hello2: string = 'sakib2';
-  hello3: string = 'sakib3';
+  angularImage: string = '../assets/angular.png';
+
+  bgcolor: string = 'blue';
+  titleColor: string = 'white';
+  description: string = 'font-size: 30px; lightblue';
+  value: string = "";
 }
