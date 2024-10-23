@@ -12,4 +12,5 @@ export class AppComponent {
   isDisable: boolean = true;
   angularImage:string = '../assets/angular.png';
   hello : string = 'sakib';
+  hello2: string = 'sakib2';
 }
